@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+    <script src="script.js" async></script>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bg-primary">
+        <a class="navbar-brand" href="#">SoftTiQue IT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Camera</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Computer</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Smart Phone
+              </a>
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Samsung</a>
+                <a class="dropdown-item" href="#">Apple</a>
+                <a class="dropdown-item" href="#">Redmi</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+          </form>
+        </div>
+      </nav>
+      
+
+   
+
+
+    <section class="container">
+        <h2 class="section-header">This is our Product</h2>
+        <div class="row">
+
+            <div class="shop-items col-3 card">
+                <div class="shop-item card-body">
+                    <span class="shop-item-title">Iphone 11 Black</span>
+                    <img class="shop-item-image " src="images/product-1.png" width="250" height="200" alt="">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1200</span>
+                        <button class="shop-item-button btn-sm btn-primary float-right" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+               
+                    <div class="shop-items col-3 card">
+                        <div class="shop-item card-body">
+                            <span class="shop-item-title">Iphone 11 White</span>
+                            <img class="shop-item-image" src="images/product-2.png" width="250" height="200" alt="">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$1400</span>
+                                <button class="shop-item-button btn-sm btn-primary float-right" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="shop-items col-3 card">
+                        <div class="shop-item card-body">
+                            <div class="shop-item ">
+                            <span class="shop-item-title">Iphone 11 Pro Max</span>
+                            <img class="shop-item-image" src="images/Apple-iPhone-11-Pro-Max.jpg" width="250" height="200" alt="">
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$1200</span>
+                                <button class="shop-item-button btn-sm btn-primary float-right" type="button">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+
+            <div class="row">
+
+                <div class="shop-items col-3 card">
+                    <div class="shop-item card-body">
+                        <span class="shop-item-title">Samsung Galaxy Note 22</span>
+                        <img class="shop-item-image my-5" src="images/Samsung-Galaxy-Note-22.jpg"  width="250" height="150" alt="">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$1899</span>
+                            <button class="shop-item-button btn-sm btn-primary float-right" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                   
+                        <div class="shop-items col-3 card">
+                            <div class="shop-item card-body">
+                                <span class="shop-item-title">Samsung Galaxy S22</span>
+                                <img class="shop-item-image my-5" src="images/Samsung-Galaxy-S22.jpg" width="250" height="150" alt="">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">$1599</span>
+                                    <button class="shop-item-button btn-sm btn-primary float-right" type="button">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="shop-items col-3 card">
+                            <div class="shop-item  ">
+                                <div class="shop-item card-body">
+                                <span class="shop-item-title">Samsung Galaxy Note20</span>
+                                <img class="shop-item-image my-5" src="images/Samsung-Galaxy-Note20.jpg"  width="250" height="150" alt="">
+                                <div class="shop-item-details">
+                                    <span class="shop-item-price">$1200</span>
+                                    <button class="shop-item-button  btn-sm btn-primary float-right" type="button">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+
+    </section>
+    <section class="container my-5">
+        <h2 class="section-header">
+            CART
+        </h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+           
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">
+           PURCHASE
+        </button>
+    </section>
+  
+
+</body>
+
+</html>
